@@ -1,0 +1,67 @@
+{
+  "circ_desk" : [ {
+    "code" : "RES_DESK",
+    "name" : "Resource Sharing Desk",
+    "primary" : true,
+    "description" : "The Resource Sharing Desk manages all items of the Resource Sharing Library",
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "chen",
+      "desc" : "chen printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "EXPIRY_TIME",
+      "desc" : "Hold Shelf Expiry Time"
+    },
+    "maximum_days_on_hold_shelf" : 4,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : true,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "IN_RS_REQ",
+      "location_name" : "Lending Resource Sharing Requests",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/locations/IN_RS_REQ"
+    }, {
+      "reshelve" : true,
+      "location_code" : "OUT_RS_REQ",
+      "location_name" : "Borrowing Resource Sharing Requests",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/locations/OUT_RS_REQ"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/circ-desks/RES_DESK"
+  } ],
+  "total_record_count" : 1
+}

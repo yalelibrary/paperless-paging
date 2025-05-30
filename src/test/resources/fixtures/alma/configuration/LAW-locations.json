@@ -1,0 +1,196 @@
+{
+  "location" : [ {
+    "code" : "LAW_RS_OUT",
+    "name" : "Law Library ILL Borrowing",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "RS_CIRC",
+      "circ_desk_name" : "Law Library ILL Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/RS_CIRC"
+    } ],
+    "accession_placement" : {
+      "value" : ""
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAW_RS_OUT"
+  }, {
+    "code" : "LAW_RS_IN",
+    "name" : "Law Library ILL Lending",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "RS_CIRC",
+      "circ_desk_name" : "Law Library ILL Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/RS_CIRC"
+    } ],
+    "accession_placement" : {
+      "value" : ""
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAW_RS_IN"
+  }, {
+    "code" : "LAWPER",
+    "name" : "Law Periodicals",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Closed",
+      "desc" : "Closed"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Law Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWPER"
+  }, {
+    "code" : "LAWRR",
+    "name" : "Law Reading Room",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Law Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/DEFAULT_CIRC_DESK"
+    }, {
+      "reshelve" : true,
+      "circ_desk_code" : "LAWRR_CIRC",
+      "circ_desk_name" : "Law Reading Room",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/LAWRR_CIRC"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWRR"
+  }, {
+    "code" : "LAWREF",
+    "name" : "Law Reference",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Closed",
+      "desc" : "Closed"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Law Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWREF"
+  }, {
+    "code" : "LAWSTACKS",
+    "name" : "Law Stacks",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Law Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWSTACKS"
+  } ],
+  "total_record_count" : 6
+}

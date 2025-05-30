@@ -1,0 +1,7 @@
+FROM fedora:42
+RUN dnf install maven -y
+RUN yum install git -y
+RUN mkdir -p /app/
+WORKDIR /app/
+COPY . /app/
+CMD  echo $(git symbolic-ref -q --short HEAD || git describe --tags --exact-match) > frontend/public/version.txt && mvn clean install && cp target/*.jar ./output

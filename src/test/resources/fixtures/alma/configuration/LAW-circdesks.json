@@ -1,0 +1,202 @@
+{
+  "circ_desk" : [ {
+    "code" : "DEFAULT_CIRC_DESK",
+    "name" : "Law Library Circulation",
+    "primary" : true,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : true,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "LAW_LIB_P",
+      "desc" : "Law Library Printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : true,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "LAWPER",
+      "location_name" : "Law Periodicals",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWPER"
+    }, {
+      "reshelve" : true,
+      "location_code" : "LAWREF",
+      "location_name" : "Law Reference",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWREF"
+    }, {
+      "reshelve" : true,
+      "location_code" : "LAWRR",
+      "location_name" : "Law Reading Room",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWRR"
+    }, {
+      "reshelve" : true,
+      "location_code" : "LAWSTACKS",
+      "location_name" : "Law Stacks",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWSTACKS"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/DEFAULT_CIRC_DESK"
+  }, {
+    "code" : "RS_CIRC",
+    "name" : "Law Library ILL Circulation",
+    "primary" : true,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "LAW_LIB_P",
+      "desc" : "Law Library Printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : false,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "LAW_RS_IN",
+      "location_name" : "Law Library ILL Lending",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAW_RS_IN"
+    }, {
+      "reshelve" : true,
+      "location_code" : "LAW_RS_OUT",
+      "location_name" : "Law Library ILL Borrowing",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAW_RS_OUT"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/RS_CIRC"
+  }, {
+    "code" : "LAWRR_CIRC",
+    "name" : "Law Reading Room",
+    "primary" : false,
+    "reading_room_desk" : true,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "LAW_LIB_P",
+      "desc" : "Law Library Printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 3,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : false,
+    "supports_digitization" : true,
+    "work_time_days" : 1,
+    "accept_credit_card" : true,
+    "accept_debit_card" : false,
+    "accept_cash" : true,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : true,
+    "receipt_email" : "lawlibprnt@university.edu",
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "LAWRR",
+      "location_name" : "Law Reading Room",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations/LAWRR"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks/LAWRR_CIRC"
+  } ],
+  "total_record_count" : 3
+}

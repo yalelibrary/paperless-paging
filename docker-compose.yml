@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  paperless_paging-db:
+    container_name: paperless_paging-db
+    image: postgres:15-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+      # Mount the local host data directory /postgresql/data to the PostgreSQL docker container's data directory /var/lib/postgresql/data. Data will be saved in this local host location
+      - ./postgresql/data:/var/lib/postgresql/data
+    # restart: always
+    environment:
+      POSTGRES_DB: paperless_paging
+      POSTGRES_USER: paperless_paging
+      POSTGRES_PASSWORD: paperless_paging_password
+  paperless_paging:
+    container_name: paperless_paging
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:postgresql://paperless_paging-db/paperless_paging"
+      SPRING_DATASOURCE_USERNAME: "paperless_paging"
+      SPRING_DATASOURCE_PASSWORD: "paperless_paging_password"
+      CLIENT_LANDING_URL_CALLSLIP: "http://localhost:8080/tasks"
+      CLIENT_LANDING_URL_ADMIN: "http://localhost:8080/assign"
+      CLIENT_LANDING_URL_ASSIGN: "http://localhost:8080/assign"
+    depends_on:
+      - paperless_paging-db
+    volumes:
+      - ~/.aws:/root/.aws
+

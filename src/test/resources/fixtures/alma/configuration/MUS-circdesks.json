@@ -1,0 +1,100 @@
+{
+  "circ_desk" : [ {
+    "code" : "DEFAULT_CIRC_DESK",
+    "name" : "Music Library Circulation",
+    "primary" : true,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "PRNT_MUS",
+      "desc" : "Shelley"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : false,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : true,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "music",
+      "location_name" : "Music Stacks",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/music"
+    }, {
+      "reshelve" : true,
+      "location_code" : "musicper",
+      "location_name" : "Music Periodicals",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musicper"
+    }, {
+      "reshelve" : true,
+      "location_code" : "musicres",
+      "location_name" : "Music Reference",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musicres"
+    }, {
+      "reshelve" : true,
+      "location_code" : "musreserve",
+      "location_name" : "Music Reserves",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musreserve"
+    } ],
+    "work_order_type" : [ {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK-MISS_DEMO",
+        "desc" : "Music Library Circulation"
+      },
+      "work_order_time_days" : 10
+    }, {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK-gwh_demo",
+        "desc" : "Music Library Circulation"
+      },
+      "work_order_time_days" : 14
+    } ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks/DEFAULT_CIRC_DESK"
+  } ],
+  "total_record_count" : 1
+}

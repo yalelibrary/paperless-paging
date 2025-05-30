@@ -1,0 +1,163 @@
+{
+  "location" : [ {
+    "code" : "SCICOURSE",
+    "name" : "Science Course Reserves",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Short Loan/Reserve",
+      "desc" : "Short Loan/Reserve"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/SCICOURSE"
+  }, {
+    "code" : "SCILOWER",
+    "name" : "Science Lower Level",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "BIB_CIRC2",
+      "circ_desk_name" : "Salk Lower Level",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/BIB_CIRC2"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/SCILOWER"
+  }, {
+    "code" : "bioper",
+    "name" : "Science Periodicals",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "Offsite",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/bioper"
+  }, {
+    "code" : "biores",
+    "name" : "Science Reference",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/biores"
+  }, {
+    "code" : "biology",
+    "name" : "Science Stacks",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/biology"
+  } ],
+  "total_record_count" : 5
+}

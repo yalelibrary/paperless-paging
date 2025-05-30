@@ -1,0 +1,279 @@
+{
+  "circ_desk" : [ {
+    "code" : "OFFSITE",
+    "name" : "Building 9",
+    "primary" : true,
+    "description" : "Reshelves for remote storage facility. CheckIn and CheckOut handled by Main Library Circulation.",
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "BLDG9PRNT",
+      "desc" : "Building 9 Printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : false,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : false,
+    "supports_digitization" : true,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "offsite",
+      "location_name" : "Building 9",
+      "location_type" : {
+        "value" : "REMOTE",
+        "desc" : "Remote Storage"
+      },
+      "check_in" : false,
+      "check_out" : false,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/offsite"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/OFFSITE"
+  }, {
+    "code" : "DEFAULT_CIRC_DESK",
+    "name" : "Main Library Circulation",
+    "primary" : true,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : true,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "MLIB_PRNT",
+      "desc" : "Main Library Printer"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : true,
+    "return_receipt_destination" : {
+      "value" : "EMAIL",
+      "desc" : "User preferred email"
+    },
+    "creates_loan_receipts" : true,
+    "loan_receipt_destination" : {
+      "value" : "EMAIL",
+      "desc" : "User preferred email"
+    },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 5,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : true,
+    "supports_digitization" : true,
+    "work_time_days" : 1,
+    "accept_credit_card" : true,
+    "accept_debit_card" : false,
+    "accept_cash" : true,
+    "accept_online" : true,
+    "accept_check" : false,
+    "print_receipt" : true,
+    "receipt_email" : "mnlib@university.edu",
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "MEDIA",
+      "location_name" : "Main Media Collection",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/MEDIA"
+    }, {
+      "reshelve" : true,
+      "location_code" : "RESERVES",
+      "location_name" : "Main Course Reserves",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/RESERVES"
+    }, {
+      "reshelve" : true,
+      "location_code" : "edu-juv",
+      "location_name" : "Juvenile Education Collection",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/edu-juv"
+    }, {
+      "reshelve" : true,
+      "location_code" : "govdocs",
+      "location_name" : "Main Government Documents",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/govdocs"
+    }, {
+      "reshelve" : true,
+      "location_code" : "main",
+      "location_name" : "Main Stacks",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/main"
+    }, {
+      "reshelve" : true,
+      "location_code" : "microforms",
+      "location_name" : "Main Microforms",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/microforms"
+    }, {
+      "reshelve" : true,
+      "location_code" : "new",
+      "location_name" : "Main New Books Display",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/new"
+    }, {
+      "reshelve" : true,
+      "location_code" : "offsite",
+      "location_name" : "Building 9",
+      "location_type" : {
+        "value" : "REMOTE",
+        "desc" : "Remote Storage"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/offsite"
+    }, {
+      "reshelve" : true,
+      "location_code" : "per-room",
+      "location_name" : "Main Periodicals",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/per-room"
+    }, {
+      "reshelve" : true,
+      "location_code" : "reference",
+      "location_name" : "Main Reference",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/reference"
+    } ],
+    "work_order_type" : [ {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK",
+        "desc" : "Main Library Circulation"
+      },
+      "work_order_time_days" : 2
+    }, {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK",
+        "desc" : "Main Library Circulation"
+      },
+      "work_order_time_days" : 1
+    }, {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK-SEARCH",
+        "desc" : "Main Library Circulation"
+      },
+      "work_order_time_days" : 7
+    } ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+  }, {
+    "code" : "RARE",
+    "name" : "Rare Book Reading Room",
+    "primary" : true,
+    "reading_room_desk" : true,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : { },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : false,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "RARE",
+      "location_name" : "Main Rare Books Collection",
+      "location_type" : {
+        "value" : "CLOSED",
+        "desc" : "Closed"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/RARE"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/RARE"
+  } ],
+  "total_record_count" : 3
+}

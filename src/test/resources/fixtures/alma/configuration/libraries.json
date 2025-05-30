@@ -1,0 +1,175 @@
+{
+  "library" : [ {
+    "code" : "GRAD",
+    "id" : "13641380000541",
+    "path" : "01YALE.01YALE_INST.GRAD",
+    "name" : "Graduate Library",
+    "description" : "Supports graduate level programs",
+    "campus" : {
+      "value" : "UPCAMPUS",
+      "desc" : "Uptown Campus"
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "grad",
+      "desc" : "Grad Stacks"
+    },
+    "number_of_locations" : {
+      "value" : 6,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 1,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD"
+  }, {
+    "code" : "LAW",
+    "id" : "63182880000521",
+    "path" : "01YALE.01YALE_INST.LAW",
+    "name" : "Law Library",
+    "description" : "Supports Law School programs",
+    "campus" : {
+      "value" : "RIVERCAMPUS",
+      "desc" : "Riverside Campus"
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "LAWSTACKS",
+      "desc" : "Law Stacks"
+    },
+    "number_of_locations" : {
+      "value" : 6,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 3,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/LAW"
+  }, {
+    "code" : "MAIN",
+    "id" : "13641560000541",
+    "path" : "01YALE.01YALE_INST.MAIN",
+    "name" : "Main Library",
+    "description" : "Supports undergraduate level programs",
+    "campus" : {
+      "value" : "MAINCAMPUS",
+      "desc" : "Main Campus"
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "main",
+      "desc" : "Main Stacks"
+    },
+    "number_of_locations" : {
+      "value" : 11,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 3,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN"
+  }, {
+    "code" : "MUS",
+    "id" : "13642280000541",
+    "path" : "01YALE.01YALE_INST.MUS",
+    "name" : "Music Library",
+    "description" : "Supports specialized music programs",
+    "campus" : {
+      "value" : "MAINCAMPUS",
+      "desc" : "Main Campus"
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "music",
+      "desc" : "Music Stacks"
+    },
+    "number_of_locations" : {
+      "value" : 4,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 1,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS"
+  }, {
+    "code" : "RES_SHARE",
+    "id" : "12900830000541",
+    "path" : "01YALE.01YALE_INST.RES_SHARE",
+    "name" : "Resource Sharing Library",
+    "description" : "Temporarily manages inventory that is sent to or received from resource sharing partners",
+    "campus" : {
+      "value" : ""
+    },
+    "proxy" : "",
+    "resource_sharing" : true,
+    "default_location" : {
+      "value" : ""
+    },
+    "number_of_locations" : {
+      "value" : 2,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 1,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE"
+  }, {
+    "code" : "BIO",
+    "id" : "13641020000541",
+    "path" : "01YALE.01YALE_INST.BIO",
+    "name" : "Science Library",
+    "description" : "Supports both graduate and undergraduate level programs in the sciences",
+    "campus" : {
+      "value" : "MAINCAMPUS",
+      "desc" : "Main Campus"
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "biology",
+      "desc" : "Science Stacks"
+    },
+    "number_of_locations" : {
+      "value" : 5,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 2,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO"
+  }, {
+    "code" : "TESTLITLIBRARY",
+    "id" : "1556176540008651",
+    "path" : "01YALE.01YALE_INST.TESTLITLIBRARY",
+    "name" : "Test LIT Library",
+    "campus" : {
+      "value" : ""
+    },
+    "proxy" : "",
+    "resource_sharing" : false,
+    "default_location" : {
+      "value" : "UNASSIGNED",
+      "desc" : "UNASSIGNED location"
+    },
+    "number_of_locations" : {
+      "value" : 723,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/TESTLITLIBRARY/locations"
+    },
+    "number_of_circ_desks" : {
+      "value" : 1,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/TESTLITLIBRARY/circ-desks"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/TESTLITLIBRARY"
+  } ],
+  "total_record_count" : 7
+}

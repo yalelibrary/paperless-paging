@@ -1,0 +1,65 @@
+{
+  "location" : [ {
+    "code" : "OUT_RS_REQ",
+    "name" : "Borrowing Resource Sharing Requests",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "RES_DESK",
+      "circ_desk_name" : "Resource Sharing Desk",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/circ-desks/RES_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/locations/OUT_RS_REQ"
+  }, {
+    "code" : "IN_RS_REQ",
+    "name" : "Lending Resource Sharing Requests",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "RES_FU",
+      "desc" : "Resource Sharing Fulfillment Unit"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "RES_DESK",
+      "circ_desk_name" : "Resource Sharing Desk",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/circ-desks/RES_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/RES_SHARE/locations/IN_RS_REQ"
+  } ],
+  "total_record_count" : 2
+}

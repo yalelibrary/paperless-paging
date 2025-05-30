@@ -1,0 +1,251 @@
+{
+  "requested_resource": [
+    {
+      "location": {
+        "library": {
+          "value": "TESTLITLIBRARY",
+          "desc": "Test LIT Library"
+        },
+        "holding_id": {
+          "value": "2292860060008651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265254408651/holdings/2292860060008651"
+        },
+        "call_number": "DT14 M44 1988",
+        "shelving_location": "lsf",
+        "copy": [
+          {
+            "pid": "2392879930008651",
+            "barcode": "39002017311714",
+            "base_status": {
+              "value": "1",
+              "desc": "Item in place"
+            },
+            "alternative_call_number": "",
+            "storage_location_id": "",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265254408651/holdings/2292860060008651/items/2392879930008651"
+          }
+        ]
+      },
+      "resource_metadata": {
+        "title": "The reshaping of African traditions / by Luke Nnamdi Mbefo.",
+        "author": "Mbefo, Luke Nnamdi.",
+        "isbn": "9782683167",
+        "publisher": "Spiritan Publications,",
+        "mms_id": {
+          "value": "99265254408651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265254408651"
+        },
+        "publication_place": "[Enugu?] :",
+        "publication_year": "c1988."
+      },
+      "request": [
+        {
+          "id": "1596828960008651",
+          "destination": {
+            "value": "TESTLITLIBRARY",
+            "desc": "Test LIT Library"
+          },
+          "requester": {
+            "desc": "William Riker",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/users/NCC-1701-D"
+          },
+          "printed": false,
+          "reported": false,
+          "request_type": "HOLD",
+          "request_sub_type": {
+            "value": "PATRON_PHYSICAL",
+            "desc": "Patron physical item request"
+          },
+          "request_date": "2023-12-15Z",
+          "request_time": "2023-12-15T15:38:36.623Z",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265254408651/requests/1596828960008651"
+        }
+      ]
+    },
+    {
+      "location": {
+        "library": {
+          "value": "TESTLITLIBRARY",
+          "desc": "Test LIT Library"
+        },
+        "holding_id": {
+          "value": "2292886430008651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265423308651/holdings/2292886430008651"
+        },
+        "call_number": "GV863 A1 K57 1989 (LC)",
+        "shelving_location": "sml",
+        "copy": [
+          {
+            "pid": "2392886340008651",
+            "barcode": "39002017435828",
+            "base_status": {
+              "value": "1",
+              "desc": "Item in place"
+            },
+            "alternative_call_number": "",
+            "storage_location_id": "",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265423308651/holdings/2292886430008651/items/2392886340008651"
+          }
+        ]
+      },
+      "resource_metadata": {
+        "title": "The creation of American team sports : baseball and cricket, 1838-72 / George B. Kirsch.",
+        "author": "Kirsch, George B.",
+        "isbn": "0252015606 (alk. paper)",
+        "publisher": "University of Illinois Press,",
+        "mms_id": {
+          "value": "99265423308651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265423308651"
+        },
+        "publication_place": "Urbana :",
+        "publication_year": "c1989."
+      },
+      "request": [
+        {
+          "id": "1596835570008651",
+          "destination": {
+            "value": "TESTLITLIBRARY",
+            "desc": "Test LIT Library"
+          },
+          "requester": {
+            "desc": "William Riker",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/users/NCC-1701-D"
+          },
+          "printed": false,
+          "reported": false,
+          "request_type": "HOLD",
+          "request_sub_type": {
+            "value": "PATRON_PHYSICAL",
+            "desc": "Patron physical item request"
+          },
+          "request_date": "2023-12-15Z",
+          "request_time": "2023-12-15T15:54:41.913Z",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265423308651/requests/1596835570008651"
+        }
+      ]
+    },
+    {
+      "location": {
+        "library": {
+          "value": "TESTLITLIBRARY",
+          "desc": "Test LIT Library"
+        },
+        "holding_id": {
+          "value": "2292870350008651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265432308651/holdings/2292870350008651"
+        },
+        "call_number": "PQ9698.26 E43 A718X 1989",
+        "shelving_location": "sml",
+        "copy": [
+          {
+            "pid": "2392870140008651",
+            "barcode": "39002017413999",
+            "base_status": {
+              "value": "1",
+              "desc": "Item in place"
+            },
+            "alternative_call_number": "",
+            "storage_location_id": "",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265432308651/holdings/2292870350008651/items/2392870140008651"
+          }
+        ]
+      },
+      "resource_metadata": {
+        "title": "Arbol que daba dinero / Domingos Pellegrini ; Traducción Rosa   S. Corgatelli.",
+        "author": "Pellegrini Jr., Domingos 1949- (Pellegrini Júnior),",
+        "isbn": "9500408880",
+        "publisher": "Emecé,",
+        "mms_id": {
+          "value": "99265432308651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265432308651"
+        },
+        "publication_place": "Buenos Aires, Argentina :",
+        "publication_year": "1989."
+      },
+      "request": [
+        {
+          "id": "1596837640008651",
+          "destination": {
+            "value": "TESTLITLIBRARY",
+            "desc": "Test LIT Library"
+          },
+          "requester": {
+            "desc": "William Riker",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/users/NCC-1701-D"
+          },
+          "printed": false,
+          "reported": false,
+          "request_type": "HOLD",
+          "request_sub_type": {
+            "value": "PATRON_PHYSICAL",
+            "desc": "Patron physical item request"
+          },
+          "request_date": "2023-12-15Z",
+          "request_time": "2023-12-15T16:31:51.707Z",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99265432308651/requests/1596837640008651"
+        }
+      ]
+    },
+    {
+      "location": {
+        "library": {
+          "value": "TESTLITLIBRARY",
+          "desc": "Test LIT Library"
+        },
+        "holding_id": {
+          "value": "2293327890008651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99266541308651/holdings/2293327890008651"
+        },
+        "call_number": "RU 971",
+        "shelving_location": "lsfmssr",
+        "copy": [
+          {
+            "pid": "2393333430008651",
+            "barcode": "39002057094352",
+            "description": "v.BOX 651 07/24/2005 2006-A-031  :  ",
+            "base_status": {
+              "value": "1",
+              "desc": "Item in place"
+            },
+            "alternative_call_number": "",
+            "storage_location_id": "",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99266541308651/holdings/2293327890008651/items/2393333430008651"
+          }
+        ]
+      },
+      "resource_metadata": {
+        "title": "Department of Athletics, Yale University, motion pictures and audiorecordings documenting football,",
+        "author": "Yale University. Dept. of Athletics.",
+        "mms_id": {
+          "value": "99266541308651",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99266541308651"
+        },
+        "publication_year": "1916"
+      },
+      "request": [
+        {
+          "id": "1613029350008651",
+          "destination": {
+            "value": "TESTLITLIBRARY",
+            "desc": "Test LIT Library"
+          },
+          "requester": {
+            "desc": "Alma User 01",
+            "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/users/AlmaUser01"
+          },
+          "printed": false,
+          "reported": false,
+          "request_type": "HOLD",
+          "request_sub_type": {
+            "value": "PATRON_PHYSICAL",
+            "desc": "Patron physical item request"
+          },
+          "request_date": "2024-01-03Z",
+          "request_time": "2024-01-03T18:45:00.419Z",
+          "link": "https://api-na.hosted.exlibrisgroup.com/almaws/v1/bibs/99266541308651/requests/1613029350008651"
+        }
+      ]
+    }
+  ],
+  "total_record_count": 4
+}

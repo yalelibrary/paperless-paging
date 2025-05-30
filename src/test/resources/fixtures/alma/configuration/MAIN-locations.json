@@ -1,0 +1,362 @@
+{
+  "location" : [ {
+    "code" : "offsite",
+    "name" : "Building 9",
+    "type" : {
+      "value" : "REMOTE",
+      "desc" : "Remote Storage"
+    },
+    "map" : "",
+    "external_name" : "Main Library Remote Storage Location",
+    "remote_storage" : "Offsite",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    }, {
+      "reshelve" : true,
+      "circ_desk_code" : "OFFSITE",
+      "circ_desk_name" : "Building 9",
+      "check_in" : false,
+      "check_out" : false,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/OFFSITE"
+    } ],
+    "accession_placement" : {
+      "value" : "852p",
+      "desc" : "Piece designation (852 $$p)"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/offsite"
+  }, {
+    "code" : "edu-juv",
+    "name" : "Juvenile Education Collection",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "1",
+      "desc" : "Dewey Decimal classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/edu-juv"
+  }, {
+    "code" : "RESERVES",
+    "name" : "Main Course Reserves",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Short Loan/Reserve",
+      "desc" : "Short Loan/Reserve"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/RESERVES"
+  }, {
+    "code" : "govdocs",
+    "name" : "Main Government Documents",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "3",
+      "desc" : "Superintendent of Documents classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/govdocs"
+  }, {
+    "code" : "MEDIA",
+    "name" : "Main Media Collection",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Media",
+      "desc" : "Media"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "8",
+      "desc" : "Other scheme"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/MEDIA"
+  }, {
+    "code" : "microforms",
+    "name" : "Main Microforms",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "6",
+      "desc" : "Shelved separately "
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/microforms"
+  }, {
+    "code" : "new",
+    "name" : "Main New Books Display",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/new"
+  }, {
+    "code" : "per-room",
+    "name" : "Main Periodicals",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/per-room"
+  }, {
+    "code" : "RARE",
+    "name" : "Main Rare Books Collection",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "RARE",
+      "circ_desk_name" : "Rare Book Reading Room",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/RARE"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "8",
+      "desc" : "Other scheme"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/RARE"
+  }, {
+    "code" : "reference",
+    "name" : "Main Reference",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/reference"
+  }, {
+    "code" : "main",
+    "name" : "Main Stacks",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Main Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MAIN/locations/main"
+  } ],
+  "total_record_count" : 11
+}

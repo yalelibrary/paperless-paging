@@ -1,0 +1,12 @@
+FROM amazoncorretto:21
+RUN yum install -y /usr/sbin/adduser awscli && mkdir -p /app/jars
+RUN yum install -y /usr/sbin/adduser awscli && mkdir -p /app/jars
+COPY target/paperless-paging-alma.jar /app/jars
+COPY ops/ /app
+ENV SERVICE_NAME="ppuser"
+RUN adduser --shell /bin/false --uid 1001 $SERVICE_NAME && \
+    chown $SERVICE_NAME:$SERVICE_NAME /app
+WORKDIR /app
+EXPOSE 8080/tcp
+USER $SERVICE_NAME
+CMD ["/app/startup.sh"]

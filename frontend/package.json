@@ -1,0 +1,43 @@
+{
+  "name": "paperless-paging-alma-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@axe-core/react": "^4.10.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/lab": "^6.0.0-beta.10",
+    "@mui/material": "^6.1.1",
+    "@mui/styles": "^6.1.1",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^8.2.0",
+    "js-cookie": "^3.0.5",
+    "localforage": "^1.9.0",
+    "notistack-v2-maintained": "^2.0.11",
+    "react": "^18.3.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^18.3.1",
+    "react-images-uploading": "^3.1.7",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
+  }
+}

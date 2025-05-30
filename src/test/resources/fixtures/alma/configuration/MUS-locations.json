@@ -1,0 +1,130 @@
+{
+  "location" : [ {
+    "code" : "musicper",
+    "name" : "Music Periodicals",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Music Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musicper"
+  }, {
+    "code" : "musicres",
+    "name" : "Music Reference",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Music Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musicres"
+  }, {
+    "code" : "musreserve",
+    "name" : "Music Reserves",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "Music Reserves",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Short Loan/Reserve",
+      "desc" : "Short Loan/Reserve"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Music Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : ""
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/musreserve"
+  }, {
+    "code" : "music",
+    "name" : "Music Stacks",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Music Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/MUS/locations/music"
+  } ],
+  "total_record_count" : 4
+}

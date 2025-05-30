@@ -1,0 +1,15 @@
+version: "3.8"
+volumes:
+  maven_cache:
+  node_cache:
+services:
+  paperless_paging:
+    container_name: paperless_paging
+    build:
+      dockerfile: Dockerfile.build
+      context: .
+    volumes:
+      - ./output:/app/output
+      - maven_cache:/root/.m2
+      - node_cache:/app/frontend/node_modules
+

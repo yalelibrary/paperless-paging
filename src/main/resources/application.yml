@@ -1,0 +1,233 @@
+alma:
+  api:
+    url: https://api-na.hosted.exlibrisgroup.com/almaws/v1/
+server:
+  forward-headers-strategy: NATIVE
+  error:
+    include-message: always
+spring:
+  datasource:
+    test-on-borrow: true
+    validation-interval: 30000
+    validation-query: SELECT 1;
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+  profiles:
+    active: dev,secrets,dev-frontend
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+  mail:
+    host: mail.yale.edu
+    port: 587
+
+paperless:
+  admins: your-admin-username
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "demo"
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=FALSE
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+    show-sql: false
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            scope: openid
+            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
+        provider:
+          cognito:
+            user-name-attribute: email
+client:
+  landing:
+    url:
+      task: http://localhost:8080/tasks
+      admin: http://localhost:8080/assign
+      assign: http://localhost:8080/assign
+cognito:
+  logout-uri: https://xxxx.library.yale.edu/logout
+  logout-redirect-uri: http://localhost:8080/logout
+
+cors:
+  origins: "http://localhost:8080"
+
+logging:
+  level:
+    root: debug
+---
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: paperless_paging_password
+    url: jdbc:postgresql://localhost/paperless_paging
+    username: paperless_paging
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            scope: openid
+            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
+        provider:
+          cognito:
+            user-name-attribute: email
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/xxxxx
+client:
+  landing:
+    url:
+      tasks: http://localhost:8080/tasks
+      admin: http://localhost:8080/assign
+      assign: http://localhost:8080/assign
+cognito:
+  logout-uri: https://xxxx.library.yale.edu/logout
+  logout-redirect-uri: http://localhost:8080/
+
+cors:
+  origins: "http://localhost:8080"
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: "dev-frontend"
+
+cors:
+  origins: "http://localhost:5173"
+
+client:
+  landing:
+    url:
+      tasks: http://localhost:5173/tasks
+      admin: http://localhost:5173/assign
+      assign: http://localhost:5173/assign
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "tst"
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            scope: openid
+            redirect-uri: https://<BASE HOSTNAME>-tst.library.yale.edu/login/oauth2/code/cognito
+        provider:
+          cognito:
+            user-name-attribute: email
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/xxxxx
+client:
+  landing:
+    url:
+      tasks: https://<BASE HOSTNAME>-tst.library.yale.edu/tasks
+      admin: https://<BASE HOSTNAME>-tst.library.yale.edu/assign
+      assign: https://<BASE HOSTNAME>-tst.library.yale.edu/assign
+cognito:
+  logout-uri: https://xxxx.library.yale.edu/logout
+  logout-redirect-uri: https://<BASE HOSTNAME>-tst.library.yale.edu/
+
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "uat"
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            scope: openid
+            redirect-uri: https://<BASE HOSTNAME>-uat.library.yale.edu/login/oauth2/code/cognito
+        provider:
+          cognito:
+            user-name-attribute: email
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/xxxxx
+client:
+  landing:
+    url:
+      tasks: https://<BASE HOSTNAME>-uat.library.yale.edu/tasks
+      admin: https://<BASE HOSTNAME>-uat.library.yale.edu/assign
+      assign: https://<BASE HOSTNAME>-uat.library.yale.edu/assign
+cognito:
+  logout-uri: https://id.library.yale.edu/logout
+  logout-redirect-uri: https://<BASE HOSTNAME>-uat.library.yale.edu/
+
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "prd"
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            scope: openid
+            redirect-uri: https://<BASE HOSTNAME>.library.yale.edu/login/oauth2/code/cognito
+        provider:
+          cognito:
+            user-name-attribute: email
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/xxxxx
+client:
+  landing:
+    url:
+      tasks: https://<BASE HOSTNAME>.library.yale.edu/tasks
+      admin: https://<BASE HOSTNAME>.library.yale.edu/assign
+      assign: https://<BASE HOSTNAME>.library.yale.edu/assign
+cognito:
+  logout-uri: https://id.library.yale.edu/logout
+  logout-redirect-uri: https://<BASE HOSTNAME>.library.yale.edu/
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "cleardata"
+  jpa:
+    hibernate:
+      ddl-auto: create

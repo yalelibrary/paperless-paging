@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  background-color: #002147;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-subheader {
+  background-color: #282c34;
+  color: #cccccc;
+}
+.info {
+  margin-top: 10pt;
+}
+
+.info div {
+  margin-top: 5pt;
+}
+
+.new-task {
+  background-color: #d9edf7;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: black;
+}
+
+.fos-task {
+  background-color: #dff0d8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: black;
+}
+
+.nos-task {
+  background-color: #f2dede;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: black;
+}
+
+.new-tab {
+  background-color: #d9edf7;
+  color: black;
+}
+
+.fos-tab {
+  background-color: #dff0d8;
+  color: black;
+}
+
+.nos-tab {
+  background-color: #f2dede;
+  color: black;
+}
+
+.radio-div {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #d9edf7;
+  padding: 10px;
+}
+
+/* The container */
+.chkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.chkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: slategrey;
+}
+
+/* On mouse-over, add a grey background color */
+.chkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chkbox-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.chkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.chkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn-new {
+  background-color: #d9edf7;
+}
+
+.btn-found {
+  background-color: #dff0d8;
+}
+
+.btn-notfound {
+  background-color: #f2dede;
+}
+
+/* Inactive tab */
+.myClass ul > li > a {
+  background-color: white;
+  color: red;
+}
+.myClass ul > li > a:hover {
+  background-color: pink;
+}
+
+/* Active tab */
+.myClass ul > li.active > a,
+.myClass ul > li.active > a:hover,
+.myClass ul > li.active > a:focus {
+  background-color: red;
+  color: white;
+}
+
+/* Disabled tab */
+.myClass ul > li.disabled > a {
+  background-color: lightgray;
+  color: darkgray;
+}
+
+.myClass ul > li > a {
+  background-color: gray;
+  color: white;
+}
+
+.chkbox-align {
+  margin-left: 120px;
+}
+
+.btn-add {
+  margin-right: 20px;
+}
+
+.btn-update {
+  margin-right: 20px;
+}
+
+.btn-delete {
+  margin-right: 20px;
+}
+
+.filter-item {
+  margin: 10px;
+  width:90%;
+}
+
+.div-selected {
+  margin: 10px;
+}
+
+.cross-subheader {
+  background-color: #f9f9f9;
+  color: #978d85;
+}
+
+.tb-new-body {
+  background-color: #2196f3;
+}
+
+.tb-fos-body {
+  background-color: #4caf50;
+}
+
+.tb-nos-body {
+  background-color: #e57373;
+}
+
+.input-file {
+  display: none;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-label {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 8px
+}
+.MuiFormLabel-root {
+  color: black !important;
+}
+.cross-subheader {
+  color: black;
+}
+
+.MuiButton-colorSecondary {
+  background-color: #4a4a4a !important;
+}
+
+.MuiButton-colorSecondary .disabled {
+  background-color: inherit;
+}
+
+/*.MuiTablePagination-input {*/
+/*  margin-top: -2px;*/
+/*}*/
+.MuiTablePagination-actions {
+  margin-top: -2px;
+}
+
+.MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows {
+  margin-top: 15px;
+}
+
+/*.MuiButton-colorPrimary {*/
+/*  background-color: #286dc0 !important;*/
+/*}*/
+
+/*.MuiButton-colorPrimary:disabled {*/
+/*  background-color: #dddddd !important;*/
+/*}*/
+
+
+#user-select-listbox li {
+  padding:0;
+  margin:0;
+}
+.offset-label {
+  margin-left: -13px;
+  margin-top: 5px;
+}

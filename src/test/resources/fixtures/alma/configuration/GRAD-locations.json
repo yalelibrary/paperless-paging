@@ -1,0 +1,178 @@
+{
+  "location" : [ {
+    "code" : "graddispla",
+    "name" : "Grad Display Shelves",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Graduate Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/graddispla"
+  }, {
+    "code" : "forlang",
+    "name" : "Grad Foreign Language Collection",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/forlang"
+  }, {
+    "code" : "gradper",
+    "name" : "Grad Periodicals",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Graduate Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/gradper"
+  }, {
+    "code" : "gradres",
+    "name" : "Grad Reference",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "Limited",
+      "desc" : "Limited"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Graduate Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/gradres"
+  }, {
+    "code" : "grad",
+    "name" : "Grad Stacks",
+    "type" : {
+      "value" : "OPEN",
+      "desc" : "Open"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : "General",
+      "desc" : "General"
+    },
+    "circ_desk" : [ {
+      "reshelve" : true,
+      "circ_desk_code" : "DEFAULT_CIRC_DESK",
+      "circ_desk_name" : "Graduate Library Circulation",
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/circ-desks/DEFAULT_CIRC_DESK"
+    } ],
+    "accession_placement" : {
+      "value" : "none",
+      "desc" : "None"
+    },
+    "call_number_type" : {
+      "value" : "0",
+      "desc" : "Library of Congress classification"
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/grad"
+  }, {
+    "code" : "UNASSIGNED",
+    "name" : "UNASSIGNED",
+    "type" : {
+      "value" : "CLOSED",
+      "desc" : "Closed"
+    },
+    "map" : "",
+    "external_name" : "",
+    "remote_storage" : "",
+    "suppress_from_publishing" : "false",
+    "fulfillment_unit" : {
+      "value" : ""
+    },
+    "circ_desk" : [ ],
+    "accession_placement" : {
+      "value" : ""
+    },
+    "call_number_type" : {
+      "value" : ""
+    },
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/GRAD/locations/UNASSIGNED"
+  } ],
+  "total_record_count" : 6
+}

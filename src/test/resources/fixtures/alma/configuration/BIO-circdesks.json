@@ -1,0 +1,144 @@
+{
+  "circ_desk" : [ {
+    "code" : "DEFAULT_CIRC_DESK",
+    "name" : "Circulation",
+    "primary" : true,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : true,
+    "supports_personal_delivery" : true,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : {
+      "value" : "TECHSERV",
+      "desc" : "BioTech"
+    },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : true,
+    "return_receipt_destination" : {
+      "value" : "PRINTER",
+      "desc" : "Circulation desk printer"
+    },
+    "creates_loan_receipts" : true,
+    "loan_receipt_destination" : {
+      "value" : "EMAIL",
+      "desc" : "Circulation desk printer"
+    },
+    "has_hold_shelf" : true,
+    "hold_shelf_sorting" : {
+      "value" : "REQUESTER_NAME",
+      "desc" : "Requester Name"
+    },
+    "maximum_days_on_hold_shelf" : 7,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : true,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : true,
+    "accept_debit_card" : false,
+    "accept_cash" : true,
+    "accept_online" : true,
+    "accept_check" : false,
+    "print_receipt" : true,
+    "receipt_email" : "salk_returns@university.edu",
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "SCICOURSE",
+      "location_name" : "Science Course Reserves",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/SCICOURSE"
+    }, {
+      "reshelve" : true,
+      "location_code" : "biology",
+      "location_name" : "Science Stacks",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/biology"
+    }, {
+      "reshelve" : true,
+      "location_code" : "bioper",
+      "location_name" : "Science Periodicals",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/bioper"
+    }, {
+      "reshelve" : true,
+      "location_code" : "biores",
+      "location_name" : "Science Reference",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/biores"
+    } ],
+    "work_order_type" : [ {
+      "work_order_type_code" : {
+        "value" : "DEFAULT_CIRC_DESK-science",
+        "desc" : "Circulation"
+      },
+      "work_order_time_days" : 0
+    } ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/DEFAULT_CIRC_DESK"
+  }, {
+    "code" : "BIB_CIRC2",
+    "name" : "Salk Lower Level",
+    "primary" : false,
+    "reading_room_desk" : false,
+    "location_to_move_items" : { },
+    "restore_from_reading_room_at_checkin" : false,
+    "picks_from_shelf" : false,
+    "supports_personal_delivery" : false,
+    "supports_registering_new_users" : true,
+    "supports_overriding_return_date" : true,
+    "default_printer" : { },
+    "additional_printer" : [ ],
+    "creates_return_receipts" : false,
+    "return_receipt_destination" : { },
+    "creates_loan_receipts" : false,
+    "loan_receipt_destination" : { },
+    "has_hold_shelf" : false,
+    "has_hold_shelf_processing" : false,
+    "notify_patron_of_canceling_expired_hold" : true,
+    "supports_digitization" : false,
+    "work_time_days" : 1,
+    "accept_credit_card" : false,
+    "accept_debit_card" : false,
+    "accept_cash" : false,
+    "accept_online" : false,
+    "accept_check" : false,
+    "print_receipt" : false,
+    "has_self_check" : false,
+    "location" : [ {
+      "reshelve" : true,
+      "location_code" : "SCILOWER",
+      "location_name" : "Science Lower Level",
+      "location_type" : {
+        "value" : "OPEN",
+        "desc" : "Open"
+      },
+      "check_in" : true,
+      "check_out" : true,
+      "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/locations/SCILOWER"
+    } ],
+    "work_order_type" : [ ],
+    "link" : "https://api-na.hosted.exlibrisgroup.com/almaws/v1/conf/libraries/BIO/circ-desks/BIB_CIRC2"
+  } ],
+  "total_record_count" : 2
+}
